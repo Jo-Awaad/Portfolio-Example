@@ -1,0 +1,32 @@
+.contact-section {
+    padding: 250px;
+    text-align: center;
+}
+
+.contact-section ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+}
+
+.contact-section a{
+    color: rgb(233, 227, 110);
+}
+
+@media (max-width: 970px) {
+    .contact-section {
+        padding: 250px 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 250px 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact-section {
+        padding: 250px 25px;
+    }
+}

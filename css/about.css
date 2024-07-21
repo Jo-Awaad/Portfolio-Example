@@ -1,0 +1,75 @@
+section a {
+  color: rgb(233, 227, 110);
+}
+
+/* abou-me section styling starts */
+.about-me {
+  background-color: rgb(59, 62, 77);
+  text-align: center;
+  padding: 80px;
+}
+  
+.projects {
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 335px;
+}
+
+@media (max-width: 380px) {
+  .about-me .photo {
+    width: 250px;
+  }
+}  
+/* abou-me section styling ends */
+
+/* projects section styling starts */
+table {
+  max-width: 800px;
+  margin-top: 50px;
+}
+
+table td {
+  padding: 15px;
+}
+
+table #project {
+  min-width: 110px;
+}
+
+table #title {
+  min-width: 200px;
+}
+
+@media (max-width: 600px) {
+  .projects {
+    overflow-x: scroll;
+    padding-right: 10px;
+  }
+
+  table #project {
+    min-width: 0;
+  }
+
+  table #title {
+    min-width: 0;
+  }
+
+  table #description {
+    min-width: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-me {
+    padding: 10px;
+  }
+  .photo {
+    padding: 40px 0;
+  }
+}
+/* projects section styling ends */

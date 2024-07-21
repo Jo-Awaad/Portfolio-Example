@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 43, 53);
+  font-family: Lato, Times, serif;
+}
+
+section {
+  color: rgb(216, 216, 216);
+}
+
+section a {
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+}
+
+section h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* navpar styling starts */
+nav {
+  background-color: rgb(55, 72, 95);
+}
+
+nav .tech-container img {
+  height: 30px;
+}
+
+nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h3 {
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  margin: 0 30px 0 0;
+}
+
+nav .logo {
+  height: 30px;
+  margin: 0 10px 0 0;
+}
+
+nav .menu-container,
+.tech-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav .nav-link {
+  color: rgb(216, 218, 221);
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+nav .nav-link:hover {
+  background-color: rgb(57, 67, 83);
+}
+
+nav .hamburger {
+  display: none;
+}
+
+nav .hamburger-list-container .nav-link {
+  display: block;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.hamburger-list-container {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  nav h3 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  nav .hamburger {
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  .menu-container .nav-links {
+    display: none;
+  }
+
+  .hamburger-list-container {
+    display: block;
+  }
+}
+/* navpar styling ends */
+
+/* footer styling starts */
+footer {
+  background-color: rgb(3, 114, 144);
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+}
+
+footer a {
+  color: rgb(247, 253, 255);
+  text-decoration: none;
+}
+/* footer styling ends */
