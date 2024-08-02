@@ -12,5 +12,10 @@ This repository contains a responsive portfolio template built with HTML, CSS, a
 
 <div align="center">
 	<img src="https://github.com/user-attachments/assets/c25599a3-b704-413a-abec-c5f2a7dc98f9">
-</div>
+</div><br>
 
+# Links
+
+<div align="center">
+	<h3><a href="https://yousef-awaad.github.io/Portfolio-Example/">Live Preview</a></h3>
+</div>
